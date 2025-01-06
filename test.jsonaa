@@ -1,0 +1,28 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "FluentApiSettings": {
+    "LogFilePath": "Error_Log.txt"
+  },
+  "ConnectionStrings": {
+
+    //"DefaultConnection": "Data Source=EC2AMAZ-UGIPS0U\\SQLSERVER;Initial Catalog=FullertonMailroom_API_TEST;User ID=sa;Password=Cr$W@20!9!#"
+   
+    "DefaultConnection": "Data Source=INIHOPCX01\\SQLEXPRESS;Database=SMFG_API;Trusted_Connection=True;TrustServerCertificate=True;"
+
+  },
+  "Security": {
+    "AllowedHosts": [],
+    "AllowedIps": [],
+    "Secret": "6XJCIEJO41PQZNWJC4RR"
+  },
+  "Jwt": {
+    "Key": "this is my custom Secret key for authentication",
+    "Issuer": "Test.com"
+  }
+}

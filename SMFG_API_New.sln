@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMFG_API_New", "SMFG_API_New.csproj", "{EE885DEE-4114-42A7-A4C4-D36949DC4B7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE885DEE-4114-42A7-A4C4-D36949DC4B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE885DEE-4114-42A7-A4C4-D36949DC4B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE885DEE-4114-42A7-A4C4-D36949DC4B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE885DEE-4114-42A7-A4C4-D36949DC4B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E5FA667-E8F0-4F45-BE40-991455C02A3A}
+	EndGlobalSection
+EndGlobal
